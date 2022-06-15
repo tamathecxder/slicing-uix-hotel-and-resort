@@ -66,6 +66,10 @@ section {
   font-family: var(--heading-font);
   /* font-weight: 500; */
 }
+
+.active {
+  border-bottom: 4px solid var(--main-color);
+}
 /* navbar end */
 
 
