@@ -1,0 +1,35 @@
+/* my fonts: Roboto, Heebo */
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&family=Roboto:wght@300&display=swap');
+
+/* custom variables */
+:root {
+  --body-color: #D1F4FA;
+  --main-color: #A52AD6;
+
+  --heading-font: 'Heebo', sans-serif;
+  --main-font: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--body-color);
+  list-style: none;
+  text-decoration: none;
+  font-family: var(--main-font);
+}
+
+section {
+  margin-top: 200px;
+}
+
+.container {
+  width: 1500px;
+}
+
+
+
