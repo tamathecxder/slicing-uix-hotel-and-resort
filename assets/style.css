@@ -29,7 +29,7 @@ section {
 }
 
 .container {
-  width: 1500px;
+  max-width: 1500px;
 }
 
 /* navbar start */
@@ -64,7 +64,7 @@ section {
 .navbar .navbar-wrapper .menu .menu-link {
   font-size: 1.25rem;
   font-family: var(--heading-font);
-  /* font-weight: 500; */
+  font-weight: 500;
 }
 
 .active {
@@ -72,4 +72,21 @@ section {
 }
 /* navbar end */
 
+
+/* responsive start */
+@media screen and (max-width: 991px) {
+  .navbar .navbar-wrapper .menu .menu-link {
+    font-size: 1rem;
+    font-family: var(--heading-font);
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar .navbar-wrapper .menu .menu-link {
+    display: none;
+  }
+}
+
+/* responsive end */
 
