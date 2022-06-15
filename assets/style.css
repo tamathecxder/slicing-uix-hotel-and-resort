@@ -1,5 +1,5 @@
 /* my fonts: Roboto, Heebo */
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&family=Philosopher:wght@700&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Philosopher:wght@700&family=Roboto:wght@300&display=swap');
 
 /* custom variables */
 :root {
@@ -34,20 +34,37 @@ section {
 
 /* navbar start */
 .navbar {
-  background-color: turquoise;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   width: 100%;
+  height: 120px;
+  line-height: 120px;
 }
 
 .navbar .navbar-wrapper {
-  background-color: #fff;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.navbar .navbar-wrapper .logo {
+  font-family: var(--logo-font);
+  font-size: 1.875rem;
+  color: var(--main-color);
+}
+
+.navbar .navbar-wrapper .menu {
+  display: flex;
+  gap: 70px;
+}
+
+.navbar .navbar-wrapper .menu .menu-link {
+  font-size: 1.25rem;
+  font-family: var(--heading-font);
+  /* font-weight: 500; */
 }
 /* navbar end */
 
