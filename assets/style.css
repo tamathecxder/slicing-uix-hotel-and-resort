@@ -31,5 +31,15 @@ section {
   width: 1500px;
 }
 
+/* navbar start */
+.navbar {
+  background-color: turquoise;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+/* navbar end */
 
 
